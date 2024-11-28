@@ -53,6 +53,11 @@ body.float-clear, body.over_flow {
 div>h2, h1 {
   text-align: center;
 }
+
+.begin {
+  font-weight: bolder;
+  color: darkred;
+}
 .section_news {
   width: 1400px;
   margin: 300px auto;
