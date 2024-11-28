@@ -7,15 +7,18 @@ body {
 }
 
 nav {
-  width: 800px;
-  height: 800px;
+  width: 600px;
+  height: 700px;
   margin: 0 auto;
   padding-top: 30px;
   background-image: url("images/paper-back.jpg");
   background-position: center center;
-  background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+ul {
+  padding: 0 100px;
 }
 
 body.main {
