@@ -18,4 +18,12 @@ body.block {
   -webkit-backdrop-filter: blur(10px);
   font-size: 1.4em;
 }
-
+body.display {
+  background-image: url("images/news-back.jpg");
+}
+.section {
+  width: 1400px;
+  margin: 300px auto;
+  box-sizing: border-box;
+  backdrop-filter: blur(10px);
+}
