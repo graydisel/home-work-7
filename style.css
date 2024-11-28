@@ -31,7 +31,7 @@ body.display {
   background-image: url("images/news-back.jpg");
 }
 
-body.float-clear {
+body.float-clear, body.over_flow {
   background-image: url("images/old-paper-back.jpg");
 }
 
@@ -39,7 +39,7 @@ body.float-clear {
 div>h2, h1 {
   text-align: center;
 }
-.section {
+.section_news {
   width: 1400px;
   margin: 300px auto;
   box-sizing: border-box;
@@ -118,4 +118,21 @@ div>h2, h1 {
 
 .no_float {
   clear: both;
+}
+
+main.section_over {
+  width: 60%;
+  margin: 0 auto;
+}
+
+.articles {
+  height: 200px;
+  border: 1px solid black;
+  margin: 20px 0;
+  padding: 10px;
+}
+
+p.overflow {
+  height: 120px;
+  overflow: auto;
 }
