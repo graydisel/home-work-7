@@ -12,18 +12,80 @@ body.main {
   font-size: 26px;
 }
 
-body.block {
+body.block::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
   background-image: url("images/wall-back.jpg");
-  backdrop-filter: blur(10px);
-  -webkit-backdrop-filter: blur(10px);
+  z-index: -1;
+  opacity: 0.5;
+}
+body.block {
   font-size: 1.4em;
 }
 body.display {
   background-image: url("images/news-back.jpg");
 }
+
+div>h2 {
+  text-align: center;
+}
 .section {
   width: 1400px;
   margin: 300px auto;
   box-sizing: border-box;
-  backdrop-filter: blur(10px);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
 }
+
+.blocks, .inline, .inline-block, .flex {
+  border: black solid 2px;
+  border-radius: 5px;
+  padding: 0 10px;
+  margin: 5px 0;
+}
+.blck {
+  display: block;
+}
+
+.inline {
+  text-align: center;
+}
+
+.inl {
+  display: inline;
+  margin: 0 10px;
+  border: 1px solid black;
+}
+
+.inline-block {
+  text-align: center;
+  padding-bottom: 5px;
+}
+
+.inlb {
+  display: inline-block;
+  box-sizing: border-box;
+  width: 30%;
+  border: 1px solid #000000;
+}
+
+.flexbox {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.flx {
+  flex: 1;
+  max-width: 30%;
+  box-sizing: border-box;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
