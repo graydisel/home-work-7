@@ -55,7 +55,6 @@ div>h2, h1 {
   margin: 300px auto;
   box-sizing: border-box;
   backdrop-filter: blur(20px);
-  -webkit-backdrop-filter: blur(20px);
 }
 
 .blocks, .inline, .inline-block, .flex {
