@@ -3,6 +3,7 @@ body {
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
+  font-size: 20px;
 }
 
 body.main {
@@ -30,7 +31,12 @@ body.display {
   background-image: url("images/news-back.jpg");
 }
 
-div>h2 {
+body.float-clear {
+  background-image: url("images/old-paper-back.jpg");
+}
+
+
+div>h2, h1 {
   text-align: center;
 }
 .section {
@@ -89,3 +95,27 @@ div>h2 {
   margin-bottom: 10px;
 }
 
+.article {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.tesla {
+  float: left;
+}
+
+[alt="Tesla"] {
+  width: 300px;
+}
+
+.laboratory {
+  float: right;
+}
+
+[alt="Laboratory"] {
+  width: 600px;
+}
+
+.no_float {
+  clear: both;
+}
